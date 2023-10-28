@@ -1,0 +1,11 @@
+{% extends "entry/default" %}
+
+{% block itemContent %}
+	<div class="player">
+		<audio controls>
+			<source src="horse.ogg" type="audio/ogg">
+			<source src="horse.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>	</div>
+	{{ entry.episodeDescription }}
+{% endblock %}

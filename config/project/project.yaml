@@ -1,0 +1,48 @@
+dateModified: 1642542416
+email:
+  fromEmail: ryan@mijingo.com
+  fromName: Downlink
+  template: null
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1bf5de18-32cf-4854-ad4e-b7d9014dcf02: 'User Photos' # User Photos
+    7c831f23-da90-4f0d-90a2-454375ee2e8e: 'Podcast Episodes' # Podcast Episodes
+    33c8318a-f8ad-43f7-8231-448c204a6ed9: 'Blog Images' # Blog Images
+plugins:
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  servd-asset-storage:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.5
+    settings:
+      assetsEnvironment: ''
+      assetsEnvironmentOverwrite: ''
+      cacheClearMode: full
+      clearCachesOnSave: always
+      disableDynamic: ''
+      disableTransforms: ''
+      injectCors: '1'
+      projectSlug: $SERVD_PROJECT_SLUG
+      securityKey: $SERVD_SECURITY_KEY
+      suppressWarnings: '1'
+      useLocalVolumes: ''
+system:
+  edition: pro
+  live: true
+  name: Downlink
+  schemaVersion: 3.7.8
+  timeZone: UTC
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
